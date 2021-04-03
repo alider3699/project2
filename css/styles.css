@@ -1,0 +1,311 @@
+
+html{
+    box-sizing: border-box;
+    font-family: "belgrano", serif;
+    background-color: linen;
+ 
+
+}
+
+*, *:before, *:after, {
+    box-sizing: inherit;
+}
+
+img{
+ 
+    max-width: 100%;
+}
+
+ul{
+
+    text-align: center;
+
+    
+}
+
+
+
+body{box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    font-family: Belgrano;
+    font-size: 18px;
+}
+
+input[type=submit] {
+  background-color: rosybrown;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+.containerform{
+  border-radius: 5px;
+  background-color: ;
+    width: 50%;
+    padding-top: 175px;
+    align-content: center;
+    padding-left: 400px;
+    padding-bottom: 100px;
+     
+    
+}
+
+
+li{
+    padding: 30px;
+    display: inline;
+    font-size: 50px;
+    font-family: 'Sacramento', cursive;
+}
+
+
+a {text-decoration: none; }
+
+
+/* unvisited link */
+a:link {
+  color: rosybrown;
+}
+
+/* visited link */
+a:visited {
+  color: rosybrown;
+}
+
+/* mouse over link */
+a:hover {
+  color: snow;
+}
+
+/* selected link */
+a:active {
+  color: snow;
+}
+
+
+.menu{
+    padding-top: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap:x
+    font-family: 'Belgrano';
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+}
+
+
+.item{
+    padding: px;
+
+}
+
+.item1{
+    grid-column: 1/6;
+    grid-row: 1/1;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+    
+}
+
+.item2{
+    grid-column: 2;
+    font-size: 30px;
+    align-items: center;
+    align-self: center;
+    padding-right: 200px;
+ 
+    
+}
+
+.item3{
+    grid-column: 1;
+    grid-row: 2/3;
+    padding-left: 200px;
+    vertical-align: middle;
+    max-width: 550px; 
+    
+    
+   
+}
+
+.item4{
+    grid-column: 1/6;
+    grid-row: 1;
+    font-size: 400%;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'Sacramento';
+    padding-top: 18%;
+    padding-bottom: 18%;
+   
+}
+
+.item5{
+    grid-column: 1;
+    
+  
+}
+
+.item6{
+    grid-column: 2;
+ 
+}
+
+.item7{
+    grid-column: 3;
+    
+}
+
+#myBtn {
+  
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rosybrown; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media (max-width: 750px){
+    
+
+
+    li{
+    padding: 30px;
+    display:inline;
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+}
+    
+    
+    .container1{
+        display: inline;
+        
+    }
+    
+    .container{
+        display: inline;
+    }
+    
+     .item1{
+        font-size: 2rem;
+         vertical-align: middle;
+    }
+    
+       .item2 {
+        font-size: 1.25rem;
+           width: 400px;
+           margin: auto;
+           padding: inherit;
+           text-align: center;
+    }
+    
+    
+    .item3 {
+        width: 300px;
+
+    
+
+    }
+    
+    .item4 {
+        font-size: 3rem;
+        width: 300px;
+        text-align: center;
+    }
+     
+    .item5 .item6 .item7 {
+        widows: 100px;
+       
+      
+    }
+
+    
+    body{box-sizing: inherit;}
+  
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    font-family: Belgrano;
+    font-size: 12px;
+}
+
+input[type=submit] {
+  background-color: rosybrown;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+.containerform{
+    display: inline;
+  border-radius: 5px;
+  background-color: ;
+    width: 50%;
+    padding-top: 175px;
+    align-content: center;
+    padding-left: 400px;
+    padding-bottom: 100px;
+     
+    
+}
+    
+    
+ 
+    
+    
+}

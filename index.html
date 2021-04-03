@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    
+       
+        <title> About Alison </title>
+        <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Belgrano">
+        <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Sacramento">
+        
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+    </head>
+    
+<body>
+    
+    <div class="menu">
+    
+    
+      <ul>
+        
+         <li><a href="#work">work</a></li>
+    <li><a href="#about">about</a></li>
+          <li><a href="index.html">
+    <img src= "images/home_button.png" alt="homepage" width="50px" height="50px"> 
+    </a> </li>
+    <li><a href="https://www.instagram.com/alisonmakes_/">blog</a></li>
+         
+    <li><a href="#form">contact</a></li>
+         <li></li>
+         
+    </ul>
+    
+    </div>
+    
+    <div class="container1">
+    
+        <div class="item item1">
+            
+            <h1>Hi! I'm Alison! </h1>
+            
+          </div>
+    
+        
+        <div class="item item2" id="about">
+  
+        I am a senior here at MSU but I’ll be sticking around for one more semester after this one. My major is graphic design and I am also minoring in marketing, a sophomore trip to New York City really sold me on marketing as an area of interest. I am a born and raised Minnesotan, I grew up in the Twin Cities area in a town called Cottage Grove and decided to stay close to home for college.
+        
+             </div>
+            <div class="item item3">
+            
+            <img src="images/IMG_4386%20copy.jpg" alt="me and my small white dog, Janie">
+            
+        </div>
+        
+    </div>
+        
+        <div class="container">
+        <div class="item item4">
+                
+            "I'd be lost without designer. I will refer everyone I know. I would be lost without designer. Designer is exactly what our business has been lacking."
+                
+            </div>
+        
+        <div class="item item5" id="work"><img src="images/work1.png" alt="photo of my Behance projects."></div>
+        
+        <div class="item item6"><img src="images/work2.png" alt="photo of my Behance projects." ></div>
+        
+        <div class="item item7"><img src="images/work3.png" alt="photo of my Behance projects." ></div>
+        
+
+    
+    </div>
+    
+    
+
+
+<div class="containerform" id="form">
+    <h2>Contact Form</h2>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+    <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+        
+</script>
+    
+   <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+    
+</body>    
+    
+    
+
+
+</html>
